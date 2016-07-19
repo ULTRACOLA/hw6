@@ -1,0 +1,117 @@
+.header {
+    height: 100px;
+    background: lightblue;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    vertical-align: middle;
+    color: white;
+}
+
+.footer {
+    height: 60px;
+    background: #ff9d00;
+    line-height: 60px;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    color: white;
+}
+
+.nav {
+    height: 60px;
+    background: #f2ca21;
+    line-height: 60px;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    color: white;
+}
+
+.main {
+    width: 75%;
+    height: 500px;
+    background: #2bc42b;
+    text-align: center;
+    line-height: 500px;
+    font-size: 50px;
+    color: white;
+}
+
+.sidebar {
+    width: 25%;
+    height: 500px;
+    text-align: center;
+    line-height: 500px;
+    background: #0d7bd9;
+    font-size: 50px;
+    color: white;
+}
+
+div {
+    float: left;
+}
+
+body {
+    min-height: 3000px;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar>li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    margin-left: -5px;
+    padding: .5em 1em;
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.nav>li:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.submenu {
+    width: 180px;
+    padding: 0px;
+    background: #e2e2e2;
+    border: ipx solid #ddd;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    display: none;
+}
+
+.submenu li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0.5em 15px;
+    
+}
+
+.submenu li:hover {
+    background: white;
+    color: #4fcb0d;
+}
+
+.navbar>li:hover .submenu {
+    display: block;
+}
+.ball{
+    
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background: red;
+    top: 95%;
+    left: 97%;
+    color: white;
+}
